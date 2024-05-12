@@ -1,0 +1,16 @@
+{
+  "cli": {
+    "version": ">= 9.0.3"
+  },
+  "build": {
+    "preview": {
+      "android": {
+        "distribution": "internal"
+      },
+      "ios": {
+        "simulator": true
+      }
+    },
+    "production": {}
+  }
+}
