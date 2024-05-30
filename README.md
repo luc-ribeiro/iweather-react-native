@@ -2,12 +2,16 @@
   <img height="60" src="./src/assets/logo.svg"  />
 </div>
 
-## 📄 Projeto
+<div align="right">
+    Clique <a href="https://github.com/luc-ribeiro/iweather-react-native/blob/main/README-PTBR.md">aqui</a> para ver a versão em Português.
+</div>
 
-iWeather é um aplicativo de previsão do tempo por cidade. 
-O aplicativo foi desenvolvido para praticar testes automatizados em React Native, deploy nas lojas de aplicativos (Play Store e Apple Store) e criação de workflows CI/CD para automação.
+## 📄 Project
 
-## 💻 Tecnologias
+iWeather is a weather forecast application by city. 
+The application was developed to practice automated testing in React Native, deploy to app stores (Play Store and Apple Store), and create CI/CD workflows for automation.
+
+## 💻 Technologies
 
 - **React Native**
 - **TypeScript**
@@ -31,31 +35,32 @@ width="200px">
 
 </div>
 
-## :heavy_check_mark: Cobertura de Testes 
+## :heavy_check_mark: Test Coverage
 
 ![image](https://github.com/luc-ribeiro/iweather-react-native/assets/69688077/357ee0f8-a085-4a43-ac42-7a0372b4d18a)
 
-## 🚀 Executando o projeto
+## 🚀 Running the project
 
-Para executar o projeto, é necessário [criar uma conta e gerar uma chave de API](https://openweathermap.org/api).
+To run the project, you need to [create an account and generate an API key](https://openweathermap.org/api).
 
 ```bash
-1. Clone este repositório em sua máquina
+1. Clone this repository to your machine
 $ git clone https://github.com/luc-ribeiro/iweather-react-native.git
 
-2. Instale as dependências
+2. Install dependencies
 $ npm i
 
-3. Crie um arquivo .env seguindo a estrutura do .env.example. Use a chave de API gerada anteriormente.
+3. Create a .env file following the structure of .env.example. Use the generated API key.
 
-4. Rode o projeto através do comando:
+4. Run the project with the command:
 $ npm start
 
-- Com o Expo Go aberto em seu dispositivo, escaneie o QR code no terminal
-OBS: É preciso ter o Expo Go instalado em seu dispositivo móvel
+- With Expo Go open on your device, scan the QR code in the terminal
+Note: Expo Go must be installed on your mobile device
 
-- Para executar os testes:
+- To run the tests:
 $ npm test
 
-- Para gerar o relatório de testes:
+- To generate the test report:
 $ npm run test:coverage
+```
